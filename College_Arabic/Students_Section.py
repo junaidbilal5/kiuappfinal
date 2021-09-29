@@ -248,7 +248,7 @@ def StudentsLayout():
 							}
 						)
 					],
-					className="create_container twelve columns",
+					className="create_container eleven columns",
 					## Width of the pie grapgh
 
 				),
@@ -263,7 +263,7 @@ def StudentsLayout():
 							}
 						)
 					],
-					className="create_container twelve columns",
+					className="create_container eleven columns",
 					## Width of the pie grapgh
 
 				),
@@ -803,7 +803,7 @@ def update_graph(year,semester):
 
 		"layout": go.Layout(
 			title={
-				"text": f" Urdu College Country Wise /دولة كلية الأوردو ",
+				"text": f"Student Nationality in Urdu College /جنسية الطالب في الكلية الأردية ",
 				"y": 0.93,
 				"x": 0.5,
 				"xanchor": "center",
@@ -925,7 +925,7 @@ def update_graph(year,semester):
 
 		"layout": go.Layout(
 			title={
-				"text": f" French College Country Wise /نسبة الكلية الفرنسية ",
+				"text": f" Student Nationality in French College /جنسية الطالب في الكلية الفرنسية ",
 				"y": 0.93,
 				"x": 0.5,
 				"xanchor": "center",
@@ -1100,7 +1100,7 @@ def update_graph(year,semester):
 
 		"layout": go.Layout(
 			title={
-				"text": f" Arabic College Country Wise/نسبة الكلية العربية بالدولة  ",
+				"text": f" Student Nationality in Arabic College/جنسية الطالب في الكلية العربية  ",
 				"y": 0.93,
 				"x": 0.5,
 				"xanchor": "center",
@@ -1272,7 +1272,7 @@ def update_graph(year,semester):
 
 		"layout": go.Layout(
 			title={
-				"text": f" English College Country Wise/نسبة اللغة الإنجليزية بالبلد  ",
+				"text": f" Student Nationality in English College/جنسية الطالب في الكلية الإنجليزية  ",
 				"y": 0.93,
 				"x": 0.5,
 				"xanchor": "center",

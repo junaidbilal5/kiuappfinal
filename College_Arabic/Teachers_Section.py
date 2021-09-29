@@ -9,7 +9,7 @@ import calendar
 import plotly
 import plotly.express as px
 df=pd.read_csv('./data/Teachers.csv')
-df2=pd.read_csv('./data/teachers_country.csv')
+df2=pd.read_csv('./data/Teacher_nationality.csv')
 df2=df2.fillna(0)
 from app import app
 year = df.Year.drop_duplicates().sort_values()
@@ -186,26 +186,55 @@ def TeachersLayout():
 									}
 								)
 							],
-							className = "create_container nine columns",
+							className = "create_container five columns",
 						),
+
+        html.Div(
+            children=[
+                # Donut chart
+                dcc.Graph(
+                    id="small_bar11(teacher)",
+                    config={
+                        "displayModeBar": "hover"
+                    }
+                )
+            ],
+            className="create_container six columns",
+        ),
 
 		], className="row flex-display"),
 
+
+
 			html.Div([
 
-			html.Div(
-				children=[
-					# Donut chart
-					dcc.Graph(
-						id="small_bar1(teacher)",
-						config={
-							"displayModeBar": "hover"
-						}
-					)
-				],
-				className="create_container nine columns",
-			),
-		],className = "row flex-display"),
+				html.Div(
+					children=[
+						# Donut chart
+						dcc.Graph(
+							id="small_bar12(teacher)",
+							config={
+								"displayModeBar": "hover"
+							}
+						)
+					],
+					className="create_container five columns",
+                    ),
+                html.Div(
+                    children=[
+                        # Donut chart
+                        dcc.Graph(
+                            id="small_bar13(teacher)",
+                            config={
+                                "displayModeBar": "hover"
+                            }
+                        )
+                    ],
+                    className="create_container six columns",
+                ),
+			], className="row flex-display"),
+
+
 
 
 		],id = "mainContainer",
@@ -217,181 +246,6 @@ def TeachersLayout():
 		])
 ]
 ####-----------------------Callbacks for Gauge-Meters------------------------------####
-
-@app.callback(
-    Output(component_id='small_bara(teacher)', component_property='figure'),
-     Input("dropdown(student)", "value"),
-     Input("dropdown1(student)", "value"))
-
-def update_graph(year,semester):
-
-
-
-    mask= (df['Year']==year)  & (df['Semester']==semester)
-
-
-    labels = ['Sudan',
-'Egypt',
-'Senegal',
-'Algeria',
-'Somalia',
-'Jordan',
-'Tunisia',
-'India',
-'Nigeria',
-'Yemen',
-'United Arab Emirates',
-'Syria, Syrian Arab Republic',
-'Morocco',
-'Mali',
-'Pakistan',
-'Palestine',
-'United Kingdom',
-'France',
-'Kuwait',
-'Libya',
-'Turkey',
-'United States',
-'Iran (Islamic Republic of)',
-'Cote dIvoire (Ivory Coast)',
-'Australia',
-'Netherlands',
-'Indonesia',
-'Burkina Faso',
-'Kenya',
-'Iraq',
-'Bahrain',
-'Comoros',
-'Saudi Arabia',
-'Ghana',
-'Chad',
-'Italy',
-'Bangladesh',
-'Oman'
-
-
-]
-    values = [64,
-55,
-36,
-33,
-15,
-14,
-11,
-8,
-8,
-7,
-6,
-6,
-6,
-5,
-4,
-4,
-4,
-3,
-3,
-3,
-2,
-2,
-2,
-2,
-2,
-2,
-2,
-1,
-1,
-1,
-1,
-1,
-1,
-1,
-1,
-1,
-1,
-1,
-
-
-]
-
-    fig = {
-		"data": [
-			go.Bar(
-				x=labels,
-				y=values,
-				name="Department Wise",
-				marker={
-					"color": "#DD4B39",
-
-				},
-				hoverinfo="text",
-
-			),
-
-		],
-
-		"layout": go.Layout(
-			title={
-				"text": f" French College Country Wise  ",
-				"y": 0.93,
-				"x": 0.5,
-				"xanchor": "center",
-				"yanchor": "top"
-			},
-			titlefont={
-				"color": "black",
-				"size": 15
-			},
-			xaxis={
-				"title": "<b>Department/قسم</b>",
-				"color": "black",
-				"showline": True,
-				"showgrid": False,
-				"showticklabels": True,
-				'categoryorder': 'total descending',
-				"linecolor": "black",
-				"linewidth": 1,
-				"ticks": "outside",
-				"tickfont": {
-					"family": "Aerial",
-					"color": "black",
-					"size": 12
-				}
-			},
-			yaxis={
-				"title": "<b>Number of applications/عدد المتقدمين</b>",
-				"color": "black",
-				"showline": True,
-				"showgrid": False,
-				"showticklabels": True,
-				"linecolor": "white",
-				"linewidth": 1,
-				"ticks": "outside",
-				"tickfont": {
-					"family": "Aerial",
-					"color": "black",
-					"size": 12
-				}
-			},
-			font={
-				"family": "sans-serif",
-				"color": "black",
-				"size": 12
-			},
-			hovermode="closest",
-			paper_bgcolor="white",
-			plot_bgcolor="white",
-			legend={
-				"orientation": "h",
-				"bgcolor": "black",
-				"xanchor": "center",
-				"x": 0.5,
-				"y": -0.7
-			}
-		)
-
-	}
-    return fig
-
 
 
 
@@ -405,67 +259,6 @@ def update_graph(year,semester):
 
 
 
-@app.callback(
-    Output(component_id='pie_chart1(teacher)', component_property='figure'),
-     Input("dropdown(teacher)", "value"),
-     Input("dropdown1(teacher)", "value"))
-
-def update_graph(year,semester):
-
-
-
-    mask= (df['Year']==year)  & (df['Semester']==semester)
-    labels = labels = ['Asian', 'European', 'ME','African']
-    values = df[mask]['Ethnicity'].value_counts()
-
-
-    fig = {
-								"data": [
-									go.Pie(
-										labels=labels,
-										values=values,
-										marker={
-
-										},
-										hoverinfo="label+value+percent",
-										textinfo="percent",
-										hole=0.7,
-										rotation=45,
-										insidetextorientation="radial"
-									)
-								],
-								"layout": go.Layout(
-									title={
-										"text": f"Ehtnicity of teachers/عرقية المعلمين ",
-										"y": 0.93,
-										"x": 0.5,
-										"xanchor": "center",
-										"yanchor": "top"
-									},
-									titlefont={
-										"color": "black",
-										"size": 15
-									},
-									font={
-										"family": "sans-serif",
-										"color": "black",
-										"size": 12
-									},
-									hovermode="closest",
-									paper_bgcolor="white",
-									plot_bgcolor="white",
-									legend={
-										"orientation": "h",
-										"bgcolor": "white",
-										"xanchor": "center",
-										"x": 0.5,
-										"y": -0.7
-									}
-								)
-							}
-
-    return fig
-
 
 
 
@@ -475,18 +268,18 @@ def update_graph(year,semester):
      Input("dropdown1(teacher)", "value"))
 
 def update_graph(year, semester):
-    mask= (df['Year']==year)  & (df['Semester']==semester)
+    maks= df2[df2['Deparment']=='Arabic']
 
 
-    dfg=df[mask].groupby('Country').count().reset_index()
+
 
 
 
     fig = {
         "data": [
             go.Bar(
-                x=dfg['Country'],
-                y=dfg['Teacher_Name'],
+                x=maks['Country'],
+                y=maks['Teachers'],
                 name="Country-wise teachers",
                 marker={
                     "color": "rgb(219, 191, 249)",
@@ -501,8 +294,8 @@ def update_graph(year, semester):
 
         "layout": go.Layout(
             title={
-                "text": f"Number of Teachers from Countries /عدد المعلمين من البلدان ",
-                "y": 0.93,
+                "text":'Teachers Nationality in Arabic College/جنسية المعلمين بالكلية العربية' ,
+				"y": 0.93,
                 "x": 0.5,
                 "xanchor": "center",
                 "yanchor": "top"
@@ -512,7 +305,7 @@ def update_graph(year, semester):
                 "size": 15
             },
             xaxis={
-                "title": "<b> Country/دولة</b>",
+                "title": "<b> Nationality/جنسية</b>",
                 "color": "black",
                 "showline": True,
                 "showgrid": False,
@@ -562,6 +355,284 @@ def update_graph(year, semester):
 
     }
     return fig
+
+
+@app.callback(
+    Output(component_id='small_bar11(teacher)', component_property='figure'),
+     Input("dropdown(teacher)", "value"),
+     Input("dropdown1(teacher)", "value"))
+
+def update_graph(year, semester):
+    maks= df2[df2['Deparment']=='English']
+
+
+
+    fig = {
+        "data": [
+            go.Bar(
+                x=maks['Country'],
+                y=maks['Teachers'],
+                name="Country-wise teachers",
+                marker={
+                    "color": "rgb(219, 191, 249)",
+                    "opacity":0.6,
+                },
+                hoverinfo="text",
+
+            ),
+
+
+        ],
+
+        "layout": go.Layout(
+            title={
+                "text":'Teachers Nationality in English College/جنسية المعلمين بالكلية الانجليزية' ,
+				"y": 0.93,
+                "x": 0.5,
+                "xanchor": "center",
+                "yanchor": "top"
+            },
+            titlefont={
+                "color": "black",
+                "size": 15
+            },
+            xaxis={
+                "title": "<b> Nationality/جنسية</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+				'categoryorder': 'total descending',
+                "linecolor": "black",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            yaxis={
+                "title": "<b>Teachers/معلمون</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+                "linecolor": "white",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            font={
+                "family": "sans-serif",
+                "color": "black",
+                "size": 12
+            },
+            hovermode="closest",
+            paper_bgcolor="white",
+            plot_bgcolor="white",
+            legend={
+                "orientation": "h",
+                "bgcolor": "black",
+                "xanchor": "center",
+                "x": 0.5,
+                "y": -0.7
+            }
+        )
+
+
+    }
+    return fig
+
+
+@app.callback(
+    Output(component_id='small_bar12(teacher)', component_property='figure'),
+     Input("dropdown(teacher)", "value"),
+     Input("dropdown1(teacher)", "value"))
+
+def update_graph(year, semester):
+    maks= df2[df2['Deparment']=='Urdu']
+
+
+
+    fig = {
+        "data": [
+            go.Bar(
+                x=maks['Country'],
+                y=maks['Teachers'],
+                name="Country-wise teachers",
+                marker={
+                    "color": "rgb(219, 191, 249)",
+                    "opacity":0.6,
+                },
+                hoverinfo="text",
+
+            ),
+
+
+        ],
+
+        "layout": go.Layout(
+            title={
+                "text":'Teachers Nationality in Urdu College/جنسية المعلمين بالكلية الأردية' ,
+				"y": 0.93,
+                "x": 0.5,
+                "xanchor": "center",
+                "yanchor": "top"
+            },
+            titlefont={
+                "color": "black",
+                "size": 15
+            },
+            xaxis={
+                "title": "<b> Nationality/جنسية</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+				'categoryorder': 'total descending',
+                "linecolor": "black",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            yaxis={
+                "title": "<b>Teachers/معلمون</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+                "linecolor": "white",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            font={
+                "family": "sans-serif",
+                "color": "black",
+                "size": 12
+            },
+            hovermode="closest",
+            paper_bgcolor="white",
+            plot_bgcolor="white",
+            legend={
+                "orientation": "h",
+                "bgcolor": "black",
+                "xanchor": "center",
+                "x": 0.5,
+                "y": -0.7
+            }
+        )
+
+
+    }
+    return fig
+
+
+@app.callback(
+    Output(component_id='small_bar13(teacher)', component_property='figure'),
+     Input("dropdown(teacher)", "value"),
+     Input("dropdown1(teacher)", "value"))
+
+def update_graph(year, semester):
+    maks= df2[df2['Deparment']=='French']
+
+
+
+    fig = {
+        "data": [
+            go.Bar(
+                x=maks['Country'],
+                y=maks['Teachers'],
+                name="Country-wise teachers",
+                marker={
+                    "color": "rgb(219, 191, 249)",
+                    "opacity":0.6,
+                },
+                hoverinfo="text",
+
+            ),
+
+
+        ],
+
+        "layout": go.Layout(
+            title={
+                "text":'Teachers Nationality in French College/جنسية المعلمين بالكلية الفرنسية' ,
+				"y": 0.93,
+                "x": 0.5,
+                "xanchor": "center",
+                "yanchor": "top"
+            },
+            titlefont={
+                "color": "black",
+                "size": 15
+            },
+            xaxis={
+                "title": "<b> Nationality/جنسية</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+				'categoryorder': 'total descending',
+                "linecolor": "black",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            yaxis={
+                "title": "<b>Teachers/معلمون</b>",
+                "color": "black",
+                "showline": True,
+                "showgrid": False,
+                "showticklabels": True,
+                "linecolor": "white",
+                "linewidth": 1,
+                "ticks": "outside",
+                "tickfont": {
+                    "family": "Aerial",
+                    "color": "black",
+                    "size": 12
+                }
+            },
+            font={
+                "family": "sans-serif",
+                "color": "black",
+                "size": 12
+            },
+            hovermode="closest",
+            paper_bgcolor="white",
+            plot_bgcolor="white",
+            legend={
+                "orientation": "h",
+                "bgcolor": "black",
+                "xanchor": "center",
+                "x": 0.5,
+                "y": -0.7
+            }
+        )
+
+
+    }
+    return fig
+
+
 
 
 @app.callback(
