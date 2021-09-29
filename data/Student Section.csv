@@ -1,0 +1,61 @@
+﻿StudentID,Category,Faculty Name,Hours_conducted,Total_hours,Hours_absent,Modules_comp,Total_modules,Modules_remain,Year,Semester,Taken,Ethnicity,Gender,Request,Country
+1,Live 1,Abdallah,34,40,6,6,10,4,2020,Spring,1,Asian,Male,Rejected ,Pakistan  
+2,Live 2,Tahir,35,40,5,5,10,5,2020,Spring,1,European,Male,Pending,Bangladesh
+3,Live 2,Owais,39,40,1,4,10,6,2020,Spring,1,ME,Female,Accepted,Sudan
+4,Live 4,Abdallah,38,40,2,7,10,3,2020,Spring,1,ME,Female,Accepted,Turkey
+5,Live 5,Tahir,25,40,15,8,10,2,2021,Spring,1,Asian,Female,Accepted,India
+6,Live 6,Owais,30,40,10,7.5,10,2.5,2020,Spring,0,African,Male,Accepted,India
+7,Live 7,Abdallah,31,40,9,3,10,7,2020,Spring,0,African,Male,Accepted,India
+8,Live 8,Tahir,32,40,8,4,10,6,2021,Fall,0,ME,Male,Rejected ,Pakistan  
+9,Live 9,Abdallah,24,40,16,7,10,3,2020,Fall,1,Asian,Male,Rejected ,Pakistan  
+10,Live 10,Tahir,35,40,5,8,10,2,2020,Fall,1,European,Male,Rejected ,Pakistan  
+11,Live 1,Owais,37,40,3,7,10,3,2020,Fall,1,European,Male,Rejected ,Pakistan  
+12,Live 2,Abdallah,38,40,2,8,10,2,2020,Fall,0,European,Male,Rejected ,Sudan
+13,Live 2,Tahir,25,40,15,7,10,3,2020,Fall,1,Asian,Female,Pending,Sudan
+14,Live 4,Owais,33,40,7,8,10,2,2021,Fall,0,ME,Female,Pending,Sudan
+15,Live 5,Abdallah,32,40,8,8,10,2,2020,Spring,1,ME,Female,Pending,Sudan
+16,Live 6,Tahir,32,40,8,10,10,0,2020,Spring,1,Asian,Female,Pending,Sudan
+17,Live 7,Tahir,30,40,10,5,10,5,2020,Spring,1,European,Female,Accepted,Turkey
+18,Live 8,Owais,31,40,9,6,10,4,2020,Spring,0,ME,Female,Accepted,Turkey
+19,Live 9,Abdallah,34,40,6,7,10,3,2020,Spring,1,ME,Female,Accepted,Turkey
+20,Live 10,Tahir,39,40,1,4,10,6,2020,Spring,0,Asian,Female,Accepted,Turkey
+21,Live 1,Owais,34,40,6,5,10,5,2020,Spring,0,African,Female,Accepted,Egypt
+22,Live 2,Abdallah,25,40,15,7,10,3,2020,Spring,0,African,Female,Pending,Egypt
+23,Live 2,Tahir,18,40,22,8,10,2,2021,Spring,1,ME,Female,Pending,Egypt
+24,Live 4,Abdallah,36,40,4,9,10,1,2020,Fall,1,Asian,Male,Pending,Egypt
+25,Live 5,Tahir,25,40,15,8,10,2,2020,Fall,0,European,Male,Pending,Egypt
+26,Live 6,Owais,29,40,11,9,10,1,2020,Fall,1,European,Male,Pending,Pakistan  
+27,Live 7,Abdallah,28,40,12,8,10,2,2020,Fall,1,European,Male,Pending,Pakistan  
+28,Live 8,Tahir,26,40,14,10,10,0,2020,Fall,1,Asian,Male,Accepted,Bangladesh
+29,Live 9,Owais,24,40,16,7,10,3,2020,Fall,1,ME,Male,Accepted,Bangladesh
+30,Live 10,Abdallah,26,40,14,8,10,2,2020,Fall,1,ME,Male,Accepted,Bangladesh
+31,Live 1,Abdallah,34,40,6,6,10,4,2021,Spring,1,Asian,Male,Accepted,Bangladesh
+32,Live 2,Tahir,35,40,5,5,10,5,2021,Spring,0,European,Male,Accepted,Pakistan  
+33,Live 2,Owais,39,40,1,4,10,6,2021,Spring,1,ME,Female,Accepted,Bangladesh
+34,Live 4,Abdallah,38,40,2,7,10,3,2021,Spring,1,ME,Male,Accepted,Sudan
+35,Live 5,Tahir,25,40,15,8,10,2,2020,Spring,1,Asian,Male,Accepted,Turkey
+36,Live 6,Owais,30,40,10,7.5,10,2.5,2021,Spring,0,African,Male,Rejected ,India
+37,Live 7,Abdallah,31,40,9,3,10,7,2021,Spring,0,African,Female,Rejected ,India
+38,Live 8,Tahir,32,40,8,4,10,6,2021,Fall,1,ME,Female,Rejected ,India
+39,Live 9,Abdallah,24,40,16,7,10,3,2020,Fall,1,Asian,Male,Rejected ,Pakistan  
+40,Live 10,Tahir,35,40,5,8,10,2,2021,Fall,1,European,Male,Rejected ,Pakistan  
+41,Live 1,Owais,37,40,3,7,10,3,2020,Fall,1,European,Male,Accepted,Pakistan  
+42,Live 2,Abdallah,38,40,2,8,10,2,2021,Fall,1,European,Male,Accepted,Pakistan  
+43,Live 2,Tahir,25,40,15,7,10,3,2021,Fall,1,Asian,Female,Accepted,Sudan
+44,Live 4,Owais,33,40,7,8,10,2,2021,Fall,1,ME,Female,Accepted,Sudan
+45,Live 5,Abdallah,32,40,8,8,10,2,2021,Spring,0,ME,Female,Accepted,Sudan
+46,Live 6,Tahir,32,40,8,10,10,0,2020,Spring,0,Asian,Male,Accepted,Sudan
+47,Live 7,Tahir,30,40,10,5,10,5,2021,Spring,1,European,Male,Accepted,Sudan
+48,Live 8,Owais,31,40,9,6,10,4,2021,Spring,0,ME,Male,Accepted,Turkey
+49,Live 9,Abdallah,34,40,6,7,10,3,2021,Spring,1,ME,Male,Rejected ,Turkey
+50,Live 10,Tahir,39,40,1,4,10,6,2021,Spring,1,Asian,Male,Rejected ,Turkey
+51,Live 1,Owais,34,40,6,5,10,5,2021,Spring,0,African,Female,Accepted,Turkey
+52,Live 2,Abdallah,25,40,15,7,10,3,2020,Spring,1,African,Female,Accepted,Egypt
+53,Live 2,Tahir,18,40,22,8,10,2,2021,Spring,1,ME,Female,Accepted,Egypt
+54,Live 4,Abdallah,36,40,4,9,10,1,2021,Fall,1,Asian,Female,Accepted,Egypt
+55,Live 5,Tahir,25,40,15,8,10,2,2021,Fall,0,European,Female,Accepted,Egypt
+56,Live 6,Owais,29,40,11,9,10,1,2021,Fall,1,European,Female,Accepted,Egypt
+57,Live 7,Abdallah,28,40,12,8,10,2,2021,Fall,1,European,Female,Accepted,Pakistan  
+58,Live 8,Tahir,26,40,14,10,10,0,2020,Fall,0,Asian,Female,Rejected ,Pakistan  
+59,Live 9,Owais,24,40,16,7,10,3,2021,Fall,0,ME,Male,Rejected ,Bangladesh
+60,Live 10,Abdallah,26,40,14,8,10,2,2021,Fall,1,ME,Male,Rejected ,Bangladesh

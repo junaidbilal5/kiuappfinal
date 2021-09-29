@@ -1,0 +1,221 @@
+Teacher_Name,Subject,Year,Semester,Attendance,Review,Total,Assignments,Tests,Ethnicity,Country,Gender,College
+Tahir,English,2020,Spring,p,9,10,Assignment 1,Test 1,Asian,Pakistan,Male,Urdu
+Tahir,Isl,2020,Spring,p,9,10,Assignment 2,Test 2,European,Pakistan,Male,English
+Tahir,Urdu,2020,Spring,p,8,10,Assignment 3,Test 3,ME,Pakistan,Male,Arabic
+Tahir,Science,2020,Spring,p,8,10,Assignment 4,Test 4,ME,Pakistan,Female,French
+Tahir,English,2021,Spring,p,8,10,Assignment 5,Test 5,Asian,Pakistan,Female,French
+Tahir,Isl,2020,Spring,p,7,10,Assignment 6,Test 6,African,Pakistan,Female,French
+Tahir,Urdu,2020,Spring,p,7,10,Assignment 7,Test 7,African,Pakistan,Female,French
+Tahir,Science,2021,Spring,a,7,10,Assignment 8,Test 8,ME,Pakistan,Male,French
+Tahir,English,2020,Spring,a,10,10,Assignment 9,Test 9,Asian,Pakistan,Male,French
+Tahir,Isl,2020,Spring,a,10,10,Assignment 10,Test 10,European,Pakistan,Male,Arabic
+Usman,Urdu,2020,Spring,p,8,10,Assignment 1,Test 1,European,Pakistan,Male,Urdu
+Usman,Science,2020,Spring,p,9,10,Assignment 2,Test 2,European,Pakistan,Male,Urdu
+Usman,English,2020,Spring,p,8,10,Assignment 3,Test 3,Asian,Pakistan,Male,Urdu
+Usman,Isl,2021,Spring,p,8,10,Assignment 4,Test 4,ME,Saudi Arabia,Male,Urdu
+Usman,Urdu,2020,Spring,p,7,10,Assignment 5,Test 5,ME,Saudi Arabia,Male,Urdu
+Usman,Science,2020,Spring,a,9,10,Assignment 6,Test 6,Asian,Saudi Arabia,Male,Urdu
+Usman,English,2020,Spring,a,10,10,Assignment 7,Test 7,European,Saudi Arabia,Male,Arabic
+Usman,Isl,2020,Spring,p,9,10,Assignment 8,Test 8,ME,Saudi Arabia,Male,English
+Usman,Urdu,2020,Spring,a,9,10,Assignment 9,Test 9,ME,Saudi Arabia,Female,English
+Usman,Science,2020,Spring,p,8,10,Assignment 10,Test 10,Asian,Saudi Arabia,Female,English
+Usman,English,2020,Spring,p,8,10,Assignment 11,Test 11,African,Saudi Arabia,Female,English
+Usman,Isl,2020,Spring,p,8,10,Assignment 12,Test 12,African,Saudi Arabia,Female,English
+Usman,Urdu,2021,Spring,p,7,10,Assignment 13,Test 13,ME,Saudi Arabia,Female,English
+Usman,Science,2020,Spring,p,7,10,Assignment 1,Test 1,Asian,Bangladesh,Female,English
+Taqi,English,2020,Spring,a,7,10,Assignment 2,Test 2,European,Bangladesh,Female,Arabic
+Taqi,Isl,2020,Spring,a,10,10,Assignment 3,Test 3,European,Bangladesh,Female,Arabic
+Taqi,Urdu,2020,Spring,p,10,10,Assignment 4,Test 4,European,Bangladesh,Female,Arabic
+Taqi,Science,2020,Spring,p,8,10,Assignment 5,Test 5,Asian,Turkey,Female,Arabic
+Taqi,English,2020,Spring,p,9,10,Assignment 6,Test 6,ME,Turkey,Male,Arabic
+Taqi,Isl,2020,Spring,p,8,10,Assignment 7,Test 7,ME,Turkey,Male,Arabic
+Taqi,Urdu,2021,Spring,p,8,10,Assignment 8,Test 8,Asian,Turkey,Male,Arabic
+Taqi,Science,2021,Spring,p,7,10,Assignment 9,Test 9,European,Turkey,Male,Arabic
+Taqi,English,2021,Spring,a,9,10,Assignment 10,Test 10,ME,Turkey,Male,Urdu
+Taqi,Isl,2021,Spring,a,10,10,Assignment 11,Test 11,ME,Turkey,Male,English
+Taqi,Urdu,2020,Fall,p,9,10,Assignment 12,Test 12,Asian,Turkey,Male,Arabic
+Taqi,Science,2021,Spring,p,9,10,Assignment 13,Test 13,African,Turkey,Male,French
+Taqi,English,2021,Spring,p,8,10,Assignment 14,Test 14,African,Turkey,Male,French
+Taqi,Isl,2021,Spring,p,8,10,Assignment 15,Test 15,ME,Turkey,Male,French
+Taqi,Urdu,2020,Spring,p,8,10,Assignment 16,Test 16,Asian,Egypt,Male,French
+Shoaib,Science,2021,Fall,p,7,10,Assignment 1,Test 1,European,Egypt,Male,French
+Shoaib,English,2020,Spring,p,7,10,Assignment 2,Test 2,European,Egypt,Male,French
+Shoaib,Isl,2021,Spring,p,7,10,Assignment 3,Test 3,European,Egypt,Male,Arabic
+Shoaib,Urdu,2021,Spring,a,10,10,Assignment 4,Test 4,Asian,Egypt,Male,Urdu
+Shoaib,Science,2021,Spring,p,10,10,Assignment 5,Test 5,ME,Egypt,Male,Urdu
+Shoaib,English,2021,Spring,p,8,10,Assignment 6,Test 6,ME,Egypt,Male,Urdu
+Shoaib,Isl,2020,Spring,p,9,10,Assignment 7,Test 7,Asian,Egypt,Male,Urdu
+Shoaib,Urdu,2021,Spring,a,8,10,Assignment 8,Test 8,European,Nigeria,Male,Urdu
+Shoaib,Science,2021,Spring,p,8,10,Assignment 9,Test 9,ME,Nigeria,Male,Urdu
+Shoaib,English,2021,Fall,p,7,10,Assignment 10,Test 10,ME,Nigeria,Male,Arabic
+Shoaib,Isl,2021,Spring,p,9,10,Assignment 11,Test 11,Asian,Nigeria,Male,English
+Shoaib,Urdu,2021,Spring,p,10,10,Assignment 12,Test 12,African,Pakistan,Male,English
+Shoaib,Science,2020,Spring,p,9,10,Assignment 13,Test 13,African,Pakistan,Male,English
+Shoaib,English,2021,Spring,p,9,10,Assignment 14,Test 14,ME,Pakistan,Male,English
+Shoaib,Isl,2021,Spring,p,8,10,Assignment 15,Test 15,Asian,Pakistan,Male,English
+Ali,Urdu,2021,Spring,p,8,10,Assignment 1,Test 1,European,Pakistan,Female,English
+Ali,Science,2021,Spring,a,8,10,Assignment 2,Test 2,European,Pakistan,Female,English
+Ali,English,2021,Spring,a,7,10,Assignment 3,Test 3,European,Pakistan,Female,Arabic
+Ali,Isl,2020,Spring,a,7,10,Assignment 4,Test 4,Asian,Pakistan,Female,Arabic
+Ali,Elec,2021,Fall,p,7,10,Assignment 5,Test 5,ME,Pakistan,Female,Arabic
+Ali,Mech,2021,Fall,p,10,10,Assignment 6,Test 6,ME,Pakistan,Female,Arabic
+Ali,Civil,2020,Fall,p,10,10,Assignment 7,Test 7,Asian,Pakistan,Female,Arabic
+Ali,Industrial,2020,Fall,p,8,10,Assignment 8,Test 8,European,Pakistan,Female,Arabic
+Ali,Elec,2020,Fall,p,9,10,Assignment 9,Test 9,ME,Pakistan,Male,Arabic
+Ali,Mech,2020,Fall,p,8,10,Assignment 10,Test 10,ME,Saudi Arabia,Male,Arabic
+Ali,Civil,2021,Fall,a,8,10,Assignment 11,Test 11,Asian,Saudi Arabia,Male,Urdu
+Ali,Industrial,2020,Fall,p,7,10,Assignment 12,Test 12,African,Saudi Arabia,Male,English
+Ali,Elec,2020,Spring,p,9,10,Assignment 13,Test 13,African,Saudi Arabia,Male,Arabic
+Ali,Mech,2021,Fall,p,10,10,Assignment 14,Test 14,ME,Saudi Arabia,Male,French
+Ali,Civil,2020,Fall,p,9,10,Assignment 15,Test 15,Asian,Saudi Arabia,Male,French
+Ali,Industrial,2020,Spring,p,9,10,Assignment 16,Test 16,European,Saudi Arabia,Male,French
+Ali,Elec,2020,Fall,a,8,10,Assignment 17,Test 17,European,Saudi Arabia,Male,French
+Ali,Mech,2020,Fall,p,8,10,Assignment 18,Test 18,European,Saudi Arabia,Male,French
+Ali,Civil,2020,Spring,p,8,10,Assignment 19,Test 19,Asian,Saudi Arabia,Male,French
+Ali,Industrial,2021,Fall,p,7,10,Assignment 20,Test 20,ME,Bangladesh,Male,Arabic
+Mudassir,Elec,2020,Fall,p,7,10,Assignment 1,Test 1,ME,Bangladesh,Male,Urdu
+Mudassir,Mech,2020,Fall,p,7,10,Assignment 2,Test 2,Asian,Bangladesh,Male,Urdu
+Mudassir,Civil,2020,Fall,p,10,10,Assignment 3,Test 3,European,Bangladesh,Male,Urdu
+Mudassir,Industrial,2020,Fall,p,10,10,Assignment 4,Test 4,ME,Turkey,Male,Urdu
+Mudassir,Elec,2020,Fall,a,8,10,Assignment 5,Test 5,ME,Turkey,Male,Urdu
+Mudassir,Mech,2020,Fall,p,9,10,Assignment 6,Test 6,Asian,Turkey,Male,Urdu
+Mudassir,Civil,2020,Fall,p,8,10,Assignment 7,Test 7,African,Turkey,Male,Arabic
+Mudassir,Industrial,2020,Fall,p,8,10,Assignment 8,Test 8,African,Turkey,Male,English
+Mudassir,Elec,2021,Fall,p,7,10,Assignment 9,Test 9,ME,Turkey,Male,English
+Mudassir,Mech,2020,Fall,p,9,10,Assignment 10,Test 10,Asian,Turkey,Male,English
+Mudassir,Civil,2020,Spring,p,10,10,Assignment 11,Test 11,European,Turkey,Female,English
+Mudassir,Industrial,2020,Spring,p,9,10,Assignment 12,Test 12,European,Turkey,Female,English
+Mudassir,Elec,2020,Fall,p,9,10,Assignment 13,Test 13,European,Turkey,Female,English
+Mudassir,Mech,2020,Fall,p,8,10,Assignment 14,Test 14,Asian,Turkey,Female,English
+Mudassir,Civil,2020,Fall,p,8,10,Assignment 15,Test 15,ME,Egypt,Male,Arabic
+Mudassir,Industrial,2020,Spring,p,8,10,Assignment 16,Test 16,ME,Egypt,Male,Arabic
+Mudassir,Elec,2021,Fall,p,7,10,Assignment 17,Test 17,Asian,Egypt,Male,Arabic
+Mudassir,Mech,2021,Fall,p,7,10,Assignment 18,Test 18,European,Egypt,Male,Arabic
+Mudassir,Civil,2021,Fall,a,7,10,Assignment 19,Test 19,ME,Egypt,Male,Arabic
+Mudassir,Industrial,2021,Fall,p,10,10,Assignment 20,Test 20,ME,Egypt,Male,Arabic
+Mudassir,Elec,2020,Fall,p,10,10,Assignment 21,Test 21,Asian,Egypt,Male,Arabic
+Umair,Mech,2021,Fall,p,8,10,Assignment 1,Test 1,African,Egypt,Male,Arabic
+Umair,Civil,2021,Spring,p,9,10,Assignment 2,Test 2,African,Nigeria,Male,Urdu
+Umair,Industrial,2021,Fall,p,8,10,Assignment 3,Test 3,ME,Nigeria,Male,English
+Umair,Elec,2020,Fall,a,8,10,Assignment 4,Test 4,Asian,Nigeria,Male,Arabic
+Umair,Mech,2021,Fall,p,7,10,Assignment 5,Test 5,European,Nigeria,Female,French
+Umair,Civil,2020,Fall,p,9,10,Assignment 6,Test 6,European,Pakistan,Female,French
+Umair,Industrial,2021,Spring,p,10,10,Assignment 7,Test 7,European,Pakistan,Female,French
+Umair,Elec,2021,Fall,p,9,10,Assignment 8,Test 8,Asian,Pakistan,Female,French
+Umair,Mech,2021,Fall,p,9,10,Assignment 9,Test 9,ME,Pakistan,Female,French
+Umair,Civil,2021,Spring,p,8,10,Assignment 10,Test 10,ME,Pakistan,Female,French
+Umair,Industrial,2020,Fall,p,8,10,Assignment 11,Test 11,Asian,Pakistan,Female,Arabic
+Umair,Elec,2021,Spring,p,8,10,Assignment 12,Test 12,European,Pakistan,Female,Urdu
+Umair,Mech,2021,Fall,a,7,10,Assignment 13,Test 13,ME,Pakistan,Female,Urdu
+Umair,Civil,2021,Fall,p,7,10,Assignment 14,Test 14,ME,Pakistan,Female,Urdu
+Umair,Industrial,2021,Fall,p,7,10,Assignment 15,Test 15,Asian,Pakistan,Male,Urdu
+Amra,English,2021,Spring,p,10,10,Assignment 1,Test 1,African,Pakistan,Male,Urdu
+Amra,Isl,2020,Spring,p,10,10,Assignment 2,Test 2,African,Pakistan,Male,Urdu
+Amra,Urdu,2021,Spring,p,8,10,Assignment 3,Test 3,ME,Pakistan,Male,Arabic
+Amra,Science,2021,Spring,p,9,10,Assignment 4,Test 4,Asian,Saudi Arabia,Male,English
+Amra,English,2021,Spring,a,8,10,Assignment 5,Test 5,European,Saudi Arabia,Male,English
+Amra,Isl,2021,Spring,p,8,10,Assignment 6,Test 6,European,Saudi Arabia,Male,English
+Amra,Urdu,2021,Fall,p,7,10,Assignment 7,Test 7,European,Saudi Arabia,Male,English
+Amra,Science,2020,Spring,p,9,10,Assignment 8,Test 8,Asian,Saudi Arabia,Male,English
+Amra,English,2021,Spring,p,10,10,Assignment 9,Test 9,ME,Saudi Arabia,Male,English
+Amra,Isl,2021,Spring,p,9,10,Assignment 10,Test 10,ME,Saudi Arabia,Male,English
+Amra,Urdu,2020,Spring,p,9,10,Assignment 11,Test 11,Asian,Saudi Arabia,Male,Arabic
+Amra,Science,2020,Spring,a,8,10,Assignment 12,Test 12,European,Saudi Arabia,Male,Arabic
+Amra,English,2020,Fall,p,8,10,Assignment 13,Test 13,ME,Saudi Arabia,Male,Arabic
+Amra,Isl,2020,Spring,p,8,10,Assignment 14,Test 14,ME,Bangladesh,Male,Arabic
+Amra,Urdu,2021,Fall,p,7,10,Assignment 15,Test 15,Asian,Bangladesh,Male,Arabic
+Amra,Science,2020,Spring,p,7,10,Assignment 16,Test 16,African,Bangladesh,Male,Arabic
+Amra,English,2020,Spring,p,7,10,Assignment 17,Test 17,African,Bangladesh,Male,Arabic
+Amra,Isl,2021,Fall,p,10,10,Assignment 18,Test 18,ME,Turkey,Male,Arabic
+Amra,Urdu,2020,Spring,p,10,10,Assignment 19,Test 19,Asian,Turkey,Male,Urdu
+Bilal,Science,2020,Spring,p,8,10,Assignment 1,Test 1,European,Turkey,Male,English
+Bilal,English,2020,Spring,p,9,10,Assignment 2,Test 2,European,Turkey,Male,Arabic
+Bilal,Isl,2020,Spring,p,8,10,Assignment 3,Test 3,European,Turkey,Male,French
+Bilal,Urdu,2020,Spring,p,8,10,Assignment 4,Test 4,Asian,Turkey,Male,French
+Bilal,Science,2021,Spring,a,7,10,Assignment 5,Test 5,ME,Turkey,Male,French
+Bilal,English,2020,Spring,p,9,10,Assignment 6,Test 6,ME,Turkey,Male,French
+Bilal,Isl,2020,Fall,p,10,10,Assignment 7,Test 7,Asian,Turkey,Female,French
+Bilal,Urdu,2020,Spring,p,9,10,Assignment 8,Test 8,European,Turkey,Female,French
+Bilal,Science,2020,Spring,p,9,10,Assignment 9,Test 9,ME,Turkey,Female,Arabic
+Bilal,English,2020,Spring,p,8,10,Assignment 10,Test 10,ME,Egypt,Female,Urdu
+Bilal,Isl,2020,Spring,p,8,10,Assignment 11,Test 11,Asian,Egypt,Female,Urdu
+Bilal,Urdu,2020,Spring,p,8,10,Assignment 12,Test 12,African,Egypt,Female,Urdu
+Bilal,Science,2020,Spring,p,7,10,Assignment 13,Test 13,African,Egypt,Female,Urdu
+Bilal,English,2021,Fall,p,7,10,Assignment 14,Test 14,ME,Egypt,Female,Urdu
+Bilal,Isl,2020,Spring,p,7,10,Assignment 15,Test 15,Asian,Egypt,Male,Urdu
+Bilal,Urdu,2020,Spring,p,10,10,Assignment 16,Test 16,European,Egypt,Male,Arabic
+Bilal,Science,2020,Spring,p,10,10,Assignment 17,Test 17,European,Egypt,Male,English
+Bilal,English,2020,Fall,p,8,10,Assignment 18,Test 18,European,Nigeria,Male,English
+Bilal,Isl,2020,Spring,p,9,10,Assignment 19,Test 19,Asian,Nigeria,Male,English
+Bilal,Urdu,2020,Spring,p,8,10,Assignment 20,Test 20,ME,Nigeria,Male,English
+Bilal,Science,2020,Spring,p,8,10,Assignment 21,Test 21,ME,Nigeria,Male,English
+Wafi,English,2021,Spring,p,7,10,Assignment 1,Test 1,Asian,Pakistan,Male,English
+Wafi,Isl,2021,Spring,p,9,10,Assignment 2,Test 2,European,Pakistan,Male,English
+Wafi,Urdu,2021,Spring,p,10,10,Assignment 3,Test 3,ME,Pakistan,Male,Arabic
+Wafi,Science,2021,Spring,p,9,10,Assignment 4,Test 4,ME,Pakistan,Male,Arabic
+Wafi,English,2020,Spring,p,9,10,Assignment 5,Test 5,Asian,Pakistan,Male,Arabic
+Wafi,Isl,2021,Fall,a,8,10,Assignment 6,Test 6,African,Pakistan,Male,Arabic
+Wafi,Urdu,2021,Spring,p,8,10,Assignment 7,Test 7,African,Pakistan,Male,Arabic
+Wafi,Science,2021,Spring,a,8,10,Assignment 8,Test 8,ME,Pakistan,Male,Arabic
+Wafi,English,2020,Spring,p,7,10,Assignment 9,Test 9,Asian,Pakistan,Male,Arabic
+Wafi,Isl,2021,Spring,p,7,10,Assignment 10,Test 10,European,Pakistan,Male,Arabic
+Wafi,Urdu,2020,Spring,p,7,10,Assignment 11,Test 11,European,Pakistan,Male,Urdu
+Wafi,Science,2021,Spring,p,10,10,Assignment 12,Test 12,European,Pakistan,Male,English
+Wafi,English,2021,Fall,p,10,10,Assignment 13,Test 13,Asian,Pakistan,Male,Arabic
+Wafi,Isl,2021,Spring,p,8,10,Assignment 14,Test 14,ME,Saudi Arabia,Male,French
+Wafi,Urdu,2021,Spring,p,9,10,Assignment 15,Test 15,ME,Saudi Arabia,Male,French
+Wafi,Science,2020,Spring,p,8,10,Assignment 16,Test 16,Asian,Saudi Arabia,Female,French
+Wafi,English,2021,Spring,p,8,10,Assignment 17,Test 17,European,Saudi Arabia,Female,French
+Wafi,Isl,2021,Spring,p,7,10,Assignment 18,Test 18,ME,Saudi Arabia,Female,French
+Wafi,Elec,2021,Fall,p,9,10,Assignment 19,Test 19,ME,Saudi Arabia,Female,French
+Wafi,Mech,2021,Fall,p,10,10,Assignment 20,Test 20,Asian,Saudi Arabia,Male,Arabic
+Wafi,Civil,2021,Fall,a,9,10,Assignment 21,Test 21,African,Saudi Arabia,Male,Urdu
+Wafi,Industrial,2020,Fall,p,9,10,Assignment 22,Test 22,African,Saudi Arabia,Male,Urdu
+Wafi,Elec,2021,Fall,p,8,10,Assignment 23,Test 23,ME,Saudi Arabia,Male,Urdu
+Wafi,Mech,2021,Spring,p,8,10,Assignment 24,Test 24,Asian,Bangladesh,Male,Urdu
+Shah,Civil,2021,Fall,p,8,10,Assignment 1,Test 1,European,Bangladesh,Male,Urdu
+Shah,Industrial,2021,Fall,p,7,10,Assignment 2,Test 2,European,Bangladesh,Male,Urdu
+Shah,Elec,2021,Fall,p,7,10,Assignment 3,Test 3,European,Bangladesh,Male,Arabic
+Shah,Mech,2020,Spring,p,7,10,Assignment 4,Test 4,Asian,Turkey,Male,English
+Shah,Civil,2021,Fall,p,10,10,Assignment 5,Test 5,ME,Turkey,Male,English
+Shah,Industrial,2021,Fall,a,10,10,Assignment 6,Test 6,ME,Turkey,Male,English
+Shah,Elec,2020,Fall,p,8,10,Assignment 7,Test 7,Asian,Turkey,Female,English
+Shah,Mech,2020,Fall,p,9,10,Assignment 8,Test 8,European,Turkey,Female,English
+Shah,Civil,2020,Spring,p,8,10,Assignment 9,Test 9,ME,Turkey,Female,English
+Shah,Industrial,2020,Fall,a,8,10,Assignment 10,Test 10,ME,Turkey,Female,English
+Shah,Elec,2021,Fall,p,7,10,Assignment 11,Test 11,Asian,Turkey,Female,Arabic
+Shah,Mech,2020,Fall,p,9,10,Assignment 12,Test 12,African,Turkey,Female,Arabic
+Shah,Civil,2020,Fall,p,10,10,Assignment 13,Test 13,African,Turkey,Female,Arabic
+Shah,Industrial,2021,Fall,p,9,10,Assignment 14,Test 14,ME,Turkey,Female,Arabic
+Shah,Elec,2020,Fall,p,9,10,Assignment 15,Test 15,Asian,Egypt,Female,Arabic
+Shah,Mech,2020,Fall,p,8,10,Assignment 16,Test 16,European,Egypt,Female,Arabic
+Shah,Civil,2020,Spring,p,8,10,Assignment 17,Test 17,European,Egypt,Male,Arabic
+Shah,Industrial,2020,Fall,p,8,10,Assignment 18,Test 18,European,Egypt,Male,Arabic
+Shah,Elec,2020,Fall,p,7,10,Assignment 19,Test 19,Asian,Egypt,Male,Urdu
+Shah,Mech,2021,Fall,p,7,10,Assignment 20,Test 20,ME,Egypt,Male,English
+Shah,Civil,2020,Fall,p,7,10,Assignment 21,Test 21,ME,Egypt,Male,Arabic
+Shah,Industrial,2020,Fall,p,10,10,Assignment 22,Test 22,Asian,Egypt,Male,French
+Shah,Elec,2020,Fall,p,10,10,Assignment 23,Test 23,European,Nigeria,Male,French
+Laraib,Mech,2020,Fall,p,8,10,Assignment 1,Test 1,ME,Nigeria,Male,French
+Laraib,Civil,2020,Fall,a,9,10,Assignment 2,Test 2,ME,Nigeria,Male,French
+Laraib,Industrial,2020,Fall,p,8,10,Assignment 3,Test 3,Asian,Pakistan,Male,French
+Laraib,Elec,2020,Spring,p,8,10,Assignment 4,Test 4,African,Pakistan,Male,French
+Laraib,Mech,2020,Fall,p,7,10,Assignment 5,Test 5,African,Pakistan,Male,Arabic
+Laraib,Civil,2021,Fall,p,9,10,Assignment 6,Test 6,ME,Pakistan,Male,Urdu
+Laraib,Industrial,2020,Fall,p,10,10,Assignment 7,Test 7,Asian,Pakistan,Male,Urdu
+Laraib,Elec,2020,Spring,p,9,10,Assignment 8,Test 8,European,Pakistan,Male,Urdu
+Laraib,Mech,2020,Fall,p,9,10,Assignment 9,Test 9,European,Pakistan,Male,Urdu
+Laraib,Civil,2020,Fall,a,8,10,Assignment 10,Test 10,European,Pakistan,Male,Urdu
+Laraib,Industrial,2020,Fall,p,8,10,Assignment 11,Test 11,Asian,Pakistan,Male,Urdu
+Laraib,Elec,2020,Fall,p,8,10,Assignment 12,Test 12,ME,Pakistan,Male,Arabic
+Laraib,Mech,2020,Spring,p,7,10,Assignment 13,Test 13,ME,Pakistan,Male,English
+Laraib,Civil,2021,Fall,p,7,10,Assignment 14,Test 14,Asian,Pakistan,Male,English
+Laraib,Industrial,2021,Fall,p,7,10,Assignment 15,Test 15,European,Pakistan,Male,English
+Laraib,Elec,2021,Fall,a,10,10,Assignment 16,Test 16,ME,Pakistan,Male,English
+Laraib,Mech,2021,Fall,p,10,10,Assignment 17,Test 17,ME,Saudi Arabia,Male,English
+Laraib,Civil,2020,Spring,p,8,10,Assignment 18,Test 18,Asian,Saudi Arabia,Male,English
+Laraib,Industrial,2021,Fall,p,9,10,Assignment 19,Test 19,African,Saudi Arabia,Male,English
+Laraib,Elec,2021,Fall,p,8,10,Assignment 20,Test 20,African,Saudi Arabia,Female,Arabic
+Laraib,Mech,2021,Fall,p,8,10,Assignment 21,Test 21,ME,Saudi Arabia,Female,Arabic
+Laraib,Civil,2020,Fall,a,7,10,Assignment 22,Test 22,Asian,Saudi Arabia,Female,Arabic
+Laraib,Industrial,2021,Fall,a,9,10,Assignment 23,Test 23,European,Saudi Arabia,Female,Arabic
